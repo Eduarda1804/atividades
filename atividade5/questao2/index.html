@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eduarda Mary">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de ferias de Eduarda Mary</title>
+    <link rel="shortcut icon" href="imagens/logo/favicon.ico">
+    <style>
+        *{
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .logo{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #ffe1e1;
+        }
+        header{
+            background-color: #702323;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 80px;
+            justify-content: start;
+            z-index: 1100;
+        }
+
+        header h1{
+            margin: 0;
+            font-size: 25px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header figure {
+            margin: 0 15px;
+        }
+        nav{
+            background-color: #8f2f2f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            display: block;
+            clear: both;
+            margin-top: 110px;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        main{
+            padding: 20px;
+            margin-top: 20px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        thead th {
+            font-weight: bold;
+            background-color: #ddd;
+        }
+
+        tfoot td {
+            text-align: center;
+            background-color: #ddd;
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logo" src="imagens/logo/logo.png" alt="Logo do Blog" title="2025">
+        </figure>
+            <h1>Bem-vindo ao meu Blog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="paginas/cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Ferias de 2025</h2>
+            <p>Aqui irei falar um pouco sobre minhas ferias do meio do ano de 2025</p>
+        </section>
+
+        <section>
+            <h3>Passeios feitos</h3>
+            <ol type="I">
+                <li>Jantar com os amigos</li>
+                <li>Festa junina com os colegas</li>
+                <li>Jockey com a família</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Jockey club</h3>
+            <ul>
+                <li>Imagem tirada por mim</li>
+                <img src="imagens/ferias/2025/paisagem.jpeg" alt="Paisagem do Jockey" title="Minhas férias em 2025">
+                <li>Imagem da parte da frente do Jockey disponivel no site</li>
+                <img src="https://www.jockeysp.com.br/sms/imagens/r0127012025185312.jpg" alt="Imagem da frente do Jockey">
+            </ul>
+        </section>
+        <section>
+            <h3>Gastos nas ferias</h3>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th colspan="4">Tabela de preços</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Gasto total</td>
+                        <td>Jantar</td>
+                        <td>Piscina</td>
+                        <td>Jockey</td>
+                    </tr>
+                    <tr>
+                        <td>R$15,80</td>
+                        <td>R$20,00</td>
+                        <td>R$50,65</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">esitimativa do valor gasto nos passeios</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h3>Links e Recursos</h3>
+            <ul>
+                <li><a href="arquivos/pdfs/ferias.pdf" download>Baixar pdf com as fotos</a></li>
+                <li><a href="https://btv.ifsp.edu.br/">Visite o IFSP Boituva</a></li>
+                <li><a href="https://www.gov.br/mec/pt-br">Link para o MEC </a></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>

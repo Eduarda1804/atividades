@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2 - Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="../questao2/estilo/layout.css">
+</head>
+<body>
+    <form id="formulario" action="paginas/formulario.html" method="post">
+        <table border="0" width="100%">
+            <tr class="titulo">
+                <td class="azulClaro">Não é associado? Faça seu cadastro</td>
+                <td class="azulEscuro"></td>
+            </tr>
+        </table>
+
+        <table border="0">
+            <tr>
+                <td>Nome Completo:</td>
+                <td><input type="text" id="ipNome"></td>
+                <td>CPF:</td>
+                <td><input type="text" id="ipCpf"></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="email" id="ipEmail"></td>
+                <td>Website:</td>
+                <td><input type="text" id="ipWebSite"></td>
+            </tr>
+            <tr>
+                <td>Endereço:</td>
+                <td colspan="3"><input type="text" id="ipEndereco" style="width: 98%;"></td>
+            </tr>
+            <tr>
+                <td>Bairro:</td>
+                <td><input type="text" id="ipBairro"></td>
+                <td>Cidade:</td>
+                <td><input type="text" id="ipCidade"></td>
+            </tr>
+            <tr>
+                <td>CEP:</td>
+                <td><input type="text" id="ipCep"></td>
+                <td>UF:</td>
+                <td>
+                    <select id="slUf">
+                        <option value="BA">BA</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Telefone:</td>
+                <td><input type="text" id="ipTelefone"></td>
+                <td>Fax:</td>
+                <td><input type="text" id="ipFax"></td>
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input type="radio" name="rdSexo" value="M"> M
+                    <input type="radio" name="rdSexo" value="F"> F
+                </td>
+                <td>Nascimento:</td>
+                <td><input type="text" id="ipDataNascimento"></td>
+            </tr>
+            <tr>
+                <td>Celular:</td>
+                <td><input type="text" id="ipCelular"></td>
+                <td>Est. Civil:</td>
+                <td>
+                    <select id="slEstCivil">
+                        <option>Solteiro</option>
+                        <option>Casado</option>
+                        <option>Viúvo</option>
+                        <option>Divorciado</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Login:</td>
+                <td><input type="text" id="ipLogin"></td>
+                <td>Senha:</td>
+                <td><input type="password" id="ipSenha"></td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>Deseja receber informações sobre os seguintes assuntos abaixo:</legend>
+            <input type="checkbox"> Tecnologia 
+            <input type="checkbox"> Esportes 
+            <input type="checkbox"> Automóveis 
+            <input type="checkbox"> Culinária 
+            <input type="checkbox"> Política 
+            <input type="checkbox"> Policial
+            <input type="checkbox"> Tempo
+            <br>
+            <input type="checkbox"> Cultura 
+            <input type="checkbox"> Economia 
+            <input type="checkbox"> Jogos 
+            <input type="checkbox"> Educação
+            <input type="checkbox"> Viagem
+            <input type="checkbox"> Empregos
+            <input type="checkbox"> Moda e Estilo   
+            <br>
+            <input type="checkbox"> Li as regras de cadastro e autorizo a criação do usuário
+        </fieldset>
+        <input type="submit" value="Confirmar">
+        <input type="reset" value="Retomar">
+    </form>
+</body>
+</html>

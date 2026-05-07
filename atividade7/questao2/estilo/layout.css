@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 3px;
+    font-weight: bold;
+}
+
+.azul_claro {
+    background-color: #68d4ff;
+    font-weight: bold;
+}
+
+.azul_escuro{
+    background-color: #000080;
+    width: 40%;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    border: 1px solid #aaa;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de perfil e posts de Giorjety Licorini Dias">
+    <title>Eduarda Mary</title>
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        body > section {
+            display: flex;
+            width: 100%;
+            max-width: 1000px;
+            border: 2px solid black;
+            background-color: white;
+            padding: 15px;
+            gap: 15px;
+        }
+        aside {
+            flex: 1;
+            border: 2px solid green;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        aside img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        aside h2 {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        aside p {
+            font-size: 13px;
+            margin: 5px 0;
+        }
+        aside strong {
+            display: block;
+        }
+        main {
+            flex: 3;
+            border: 2px solid orange;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        article {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+        }
+        article h1 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+        article p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <aside>
+            <img src="imagens/eu.jpeg" alt="Foto de Eduarda Mary">      
+            <p><strong>Nome:</strong> Eduarda Mary Magalhães Nogueira</p>
+            <p><strong>Email:</strong> eduarda.marys2007@gmail.com</p>
+            <p><strong>Localização:</strong> Boituva, São Paulo, Brasil</p>
+        </aside>
+        <main>
+            <article>
+                <h1>Bem-vindo</h1>
+                <p>Este é o meu primeiro post. Aqui falerei mais sobre minha vida, viagens, estudos, amigos, família, hobbies, etc.</p>
+            </article>
+            <article>
+                <h1>Faculdade</h1>
+                <p>Eu entrei no IFSP campus Boituva através do SISU, entrei no curso de ADS e me mudei para a cidade para focar nos estudos.</p>
+            </article>
+        </main>
+    </section>
+</body>
+</html>
